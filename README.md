@@ -1,2 +1,2 @@
 # RPS
-rock paper and cissors
+rock paper and scissors 
