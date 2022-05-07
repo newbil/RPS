@@ -29,6 +29,10 @@ body{
     align-items: center;
     padding: 5px;
     margin: 20px;
+    cursor: pointer;
+}
+#img>*:hover{
+    transform: scale(1.3);
 }
 #im1,#im2,#im3{
     display: flex;
@@ -36,6 +40,7 @@ body{
     width: 300px;
     border-radius: 3em;
     background-color: azure;
+    transition: 100ms; 
 }
 #score{
     background-color: #057dcd;
