@@ -25,13 +25,13 @@ paper.onclick = function paper(){
     player=paper.name;
     computer=rand();
     rps(player,computer);
-    console.log(finalResult);
+    console.log(result);
 }
 scissor.onclick = function scissor(){
     player=scissor.name;
     computer=rand();
     rps(player,computer);
-    console.log(finalResult);
+    console.log(result);
 }
 function rps(play,comp){
     cpu.innerHTML=computer;
@@ -40,12 +40,12 @@ function rps(play,comp){
         }
         else if (player=='rock'){
             if(computer=='paper'){
-            result='Computer wins';
-            com++;
+                result='Computer wins';
+                com++;
             }
             else{    
-            result='Player wins';
-            pl++;
+                result='Player wins';
+                pl++;
             }
         }
         else if(player=='paper'){
