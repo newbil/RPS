@@ -42,10 +42,23 @@ body{
     background-color: azure;
     transition: 100ms; 
 }
+#cpu{
+    display: flex;
+    justify-content: center;
+    font-size: 3em;    
+}    
+#cpu>p{
+    margin:0;
+}
 #score{
     background-color: #057dcd;
     display:flex;
     justify-content: center;
     align-items: center;
     font-size: 50px;
+}
+#final{
+    display: flex;
+    justify-content: center;
+    font-size: 3em; 
 }
